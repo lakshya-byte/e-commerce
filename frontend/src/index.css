@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* src/index.css */
+body {
+    font-family: 'Itim', cursive; /* Use Itim font for the entire body */
+    margin: 0; /* Reset default margins */
+    padding: 0; /* Reset default paddings */
+  }
+  
+  /* Optional: Apply Itim font to specific elements */
+  h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Itim', cursive; /* Optional for headers and paragraphs */
+  }
+  

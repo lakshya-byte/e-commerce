@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Frontend build directories
+frontend/node_modules/
+frontend/build/
+
+# Backend build directories
+backend/node_modules/
+backend/build/
+
+# Admin build directories
+admin/node_modules/
+admin/build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment files
+.env
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
